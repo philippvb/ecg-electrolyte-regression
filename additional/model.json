@@ -1,0 +1,22 @@
+{
+	"name": "resnet",
+    "sample_freq": 400,
+	"seq_length": 4096,
+	"net_filter_size": [
+		64,
+		128,
+		196,
+		256,
+		320
+	],
+	"net_seq_lengh": [
+		4096,
+		1024,
+		256,
+		64,
+		16
+	],
+	"dropout_rate": 0.5,
+	"kernel_size": 17,
+	"n_leads": 8
+}
